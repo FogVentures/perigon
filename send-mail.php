@@ -1,7 +1,7 @@
 <?php
 
 /* ==============================================
-Variables you can change
+Variables you can change - something to test with Git
 ============================================== */
 
 $mailto = 'info@perigonpartners.com'; // Enter your mail addres here. 

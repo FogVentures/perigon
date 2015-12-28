@@ -177,8 +177,8 @@ h2 {
 h3 {
 	font-size: 18px;
 	line-height: 24px;
-	font-weight: 400;
-	color: #555555;
+	font-weight: 300;
+	color: #333333;
 	margin-bottom: 10px;
 }
 
@@ -191,7 +191,10 @@ h4 {
 }
 
 p {
+	font-size: 13px;
+	font-weight: 300;
 	margin-bottom: 8px;
+
 }
 
 a, a > * {
@@ -470,7 +473,7 @@ Preloader
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(../images/loading-animation.gif); 
+    background-image: url(../img/loading-animation.gif); 
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
@@ -572,13 +575,13 @@ Intro
 
 #intro {
 	background-color: #f2f2f2; 
-	background: url(../images/baybridge1920x1200.jpg) no-repeat center center;
+	background: url(../img/baybridge1920x1200.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/baybridge1920x1200.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/baybridge1920x1200.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/baybridge1920x1200.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/baybridge1920x1200.jpg', sizingMethod='scale')";
 	text-align: center;
 	padding-top: -50px;
 }
@@ -852,13 +855,13 @@ Flexslider
 .flexslider a.flex-prev {
 	width: 30px;
 	height: 35px;
-	background: url(../images/flexslider-left-arrow.png) no-repeat;
+	background: url(../img/flexslider-left-arrow.png) no-repeat;
 }
 
 .flexslider a.flex-next {
 	width: 30px;
 	height: 35px;
-	background: url(../images/flexslider-right-arrow.png) no-repeat;
+	background: url(../img/flexslider-right-arrow.png) no-repeat;
 }
 
 /* ==================================================================
@@ -894,16 +897,39 @@ Isotope Transitions
 }
 
 /* ==================================================================
-Contacts
+FAQs
 ================================================================== */
 
-#contacts {
-	background: url(../images/goldengate1920x1500.jpg) no-repeat center center;
+#faqs {
+	background: url(../img/member-bio-img-1.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/goldengate1920x1500.jpg', sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/goldengate1920x1500.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../goldengate1920x1500.jpg', sizingMethod='scale')";
+}
+
+#faqs .accordion-group {
+	border: #333333;
+}
+
+#faqs .accordion-body {
+	background: #ffffff;
+	opacity: 0.5;
+}
+
+/* ==================================================================
+Contacts
+================================================================== */
+
+#contacts {
+	background: url(../img/goldengate1920x1500.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/goldengate1920x1500.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../goldengate1920x1500.jpg', sizingMethod='scale')";
 
 }

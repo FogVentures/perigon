@@ -564,9 +564,11 @@ $(document).ready(function() {
                 hideMap();
             }
         });
-    
 
     });
+
+
+
 
     /* ==============================================
     Form validation
